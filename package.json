@@ -1,0 +1,17 @@
+{
+  "name": "generator_custompost",
+  "version": "0.1.0",
+  "description": "wordpress custom post type generator",
+  "files": [
+    "app",
+    "router"
+  ],
+  "author": "Amanda Roscoe",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "mkdirp": "^0.5.1",
+    "underscore.string": "^3.2.3",
+    "yeoman-generator": "^0.21.1"
+  }
+}

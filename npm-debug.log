@@ -1,0 +1,28 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'link' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.1
+4 verbose linkPkg /Users/amandaroscoe/yeoman_generators/custompost_generator
+5 silly gentlyRm /usr/local/lib/node_modules/generator_custompost is being purged
+6 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/generator_custompost
+7 verbose stack Error: EACCES: permission denied, symlink '/Users/amandaroscoe/yeoman_generators/custompost_generator' -> '/usr/local/lib/node_modules/generator_custompost'
+7 verbose stack     at Error (native)
+8 verbose cwd /Users/amandaroscoe/yeoman_generators/custompost_generator
+9 error Darwin 14.5.0
+10 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "link"
+11 error node v4.3.1
+12 error npm  v2.14.12
+13 error path /Users/amandaroscoe/yeoman_generators/custompost_generator
+14 error code EACCES
+15 error errno -13
+16 error syscall symlink
+17 error Error: EACCES: permission denied, symlink '/Users/amandaroscoe/yeoman_generators/custompost_generator' -> '/usr/local/lib/node_modules/generator_custompost'
+17 error     at Error (native)
+17 error  { [Error: EACCES: permission denied, symlink '/Users/amandaroscoe/yeoman_generators/custompost_generator' -> '/usr/local/lib/node_modules/generator_custompost']
+17 error   errno: -13,
+17 error   code: 'EACCES',
+17 error   syscall: 'symlink',
+17 error   path: '/Users/amandaroscoe/yeoman_generators/custompost_generator',
+17 error   dest: '/usr/local/lib/node_modules/generator_custompost' }
+18 error Please try running this command again as root/Administrator.
+19 verbose exit [ -13, true ]
